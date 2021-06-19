@@ -1,0 +1,22 @@
+{
+  "name": "react-redux-posts-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "server": "node index.js",
+    "dev-server": "nodemon index.js",
+    "client": "yarn --cwd client/ start",
+    "build:client": "yarn --cwd client/ build"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "react-router-dom": "^5.2.0",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

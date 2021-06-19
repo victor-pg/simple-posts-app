@@ -1,0 +1,1 @@
+Simple CRUD app based on react,redux,express,postgresql,antd,styled-components
